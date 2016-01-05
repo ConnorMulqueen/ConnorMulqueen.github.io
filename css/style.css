@@ -87,12 +87,13 @@ background: url(../img/pattern.png);
 #rankDistribution h1 {
 	font-family:'Helvetica';
 	font-weight: 300;
-	font-size:80px;
+	font-size:100px;
 	color: #3180a9;
 	margin: -999;
+	line-height: 20px
 }
 #rankDistribution h2 {
-	font-size: 50px;
+	font-size: 40px;
 }
 #lColor i{
 	color:#ffffff
