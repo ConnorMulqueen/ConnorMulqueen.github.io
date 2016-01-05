@@ -161,14 +161,15 @@ $('.header').height(wHeight);
                 clearInterval(progress);
             } else {
                 current_perc +=1;
-                me.css('width', (current_perc)+'%');
+                me.css('width', (current_perc*3)+'%');
             }
 
-            pe.text((current_perc)+'%');
+            // pe.text((current_perc)+'%');
+             pe.text((current_perc));
 
-        },90);
+        },200);
     });
-}, 300);
+}, 3000);
 
 
 }
