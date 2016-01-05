@@ -2,7 +2,7 @@
  "use strict";
 
 $('.navbar-brand, .top-scroll a').click(function() {
-  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 	|| location.hostname == this.hostname) {
 
 	var target = $(this.hash);
@@ -17,7 +17,7 @@ $('.navbar-brand, .top-scroll a').click(function() {
 });
 var navbarHeight = $('.main-nav').height();
 $('a.btnAbout, a.hire').click(function() {
-  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 	|| location.hostname == this.hostname) {
 
 	var target = $(this.hash);
@@ -29,11 +29,11 @@ $('a.btnAbout, a.hire').click(function() {
 	  return false;
 	}
   }
-});    
+});
 //=======================flexslider==============================================
 
 //=====================================================================
-       
+
 
 //=================================menu scroll==========================================
 $('.navbar-nav').onePageNav({
@@ -41,13 +41,13 @@ $('.navbar-nav').onePageNav({
 	   scrollSpeed:1000,
         scrollThreshold: 0.25
 	});
-//========================================= portfolio filter =========================================	
-	
+//========================================= portfolio filter =========================================
+
 
  //============================ function =========================================
 
 imgHover();
-lightboxPhoto(); 
+lightboxPhoto();
 winHeight();
 barScroll();
   //============================ nav container sticky =========================================
@@ -57,33 +57,33 @@ $('ul.nav li a').click(function(){
 $('.navbar-inverse .navbar-collapse').removeClass('in')
 });
 //================= show content ==============================================================
-   
+
 })();
 
 
 $(window).load(function(){
 $('#flex-head').flexslider({
-animation: "slide",    
+animation: "slide",
 slideshow: true
-}); 
+});
   navScroll();
 $('#filterOptions a').click(function (e) {
     e.preventDefault();
- 
+
     // set active class
     $('#filterOptions a').removeClass('cur');
     $(this).addClass('cur');
- 
+
     // get group name from clicked item
     var groupName = $(this).attr('data-group');
- 
+
     // reshuffle grid
     $grid.shuffle('shuffle', groupName );
 	});
     /* initialize shuffle plugin */
     var $grid = $('#grid'),
 	$sizer = $grid.find('.shuffle__sizer');
- 
+
     $grid.shuffle({
         itemSelector: '.box', // the selector for the items in the grid
 		sizer: $sizer
@@ -97,7 +97,7 @@ winHeight();
 });
 $(window).scroll(function() {
 navScroll();
- }); 
+ });
 //================================ function ========================================
 
 function imgHover(){
@@ -108,7 +108,7 @@ function imgHover(){
     $(this).children('.folio-caption').animate({
     bottom:'0px'
     });
-     
+
  }, function(){
  $(this).find('.link-search, .link-chain').fadeOut();
   $('.link-search').removeClass('fadeInLeft').addClass('fadeOutLeft');
@@ -116,18 +116,18 @@ function imgHover(){
     $(this).children('.folio-caption').animate({
     bottom:'-58px'
     });
-     
- });   
+
+ });
 }
 
 function lightboxPhoto() {
     $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox();
-    }); 
+    });
 }
 function navScroll(){
- 
+
 var top = $(window).scrollTop();
 
 if (top > 3) {
@@ -143,7 +143,7 @@ $('.main-nav').fadeOut();
 function winHeight(){
  //==================================== height header============================
 var wHeight = $(window).height();
-$('.header').height(wHeight); 
+$('.header').height(wHeight);
 }
 
     function barScroll(){
@@ -170,6 +170,5 @@ $('.header').height(wHeight);
     });
 }, 300);
 
- 
-        
-    }
+
+}
