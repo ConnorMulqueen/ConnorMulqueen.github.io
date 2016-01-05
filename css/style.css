@@ -97,6 +97,9 @@ background: url(../img/pattern.png);
 #lColor i{
 	color:#ffffff
 }
+#work a{
+	color:#3180a9;
+}
 #flex-head h1{
 font-family: 'Lato';
 font-weight:700;
@@ -358,17 +361,17 @@ margin-right: -1px;
 ul#filterOptions li span{
 padding: 10px 12px;
 display: block;
-color:#c4c4c4;
+color:#1d2127;
 padding:0 10px;
 font-family: 'VerelaRound';
 }
 ul#filterOptions li a{
-color:#c4c4c4;
+color:#143D52;
 font-size:18px;
 padding:0;
 }
 ul#filterOptions li.cur a:hover{
- color:#1d2127;
+ color:#143D52;
 }
 ul#filterOptions li a:hover{
  text-decoration:none;
