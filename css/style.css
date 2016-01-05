@@ -79,8 +79,11 @@ background: url(../img/pattern.png);
 	font-family:'Helvetica';
 	font-weight: 300;
 	font-size:80px;
-	color: green;
+	color: #3180a9;
 	margin: -999;
+}
+#sup h2 {
+	font-size: 50px;
 }
 #flex-head h1{
 font-family: 'Lato';
