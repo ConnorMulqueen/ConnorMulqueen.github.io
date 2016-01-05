@@ -50,6 +50,7 @@ imgHover();
 lightboxPhoto();
 winHeight();
 barScroll();
+
   //============================ nav container sticky =========================================
 
   $(".navbar").sticky({ topSpacing: 0 });
@@ -119,7 +120,6 @@ function imgHover(){
 
  });
 }
-
 function lightboxPhoto() {
     $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
     event.preventDefault();
