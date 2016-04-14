@@ -1,2 +1,4 @@
 # ConnorMulqueen.github.io
-Website Shenanigans
+Website Shenanigans.
+
+You can take a look at the current site [here](http://connormulqueen.github.io/)
