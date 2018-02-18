@@ -49,13 +49,8 @@ a {
   text-decoration: none;
 }
 
-#HeaderText {
+#text {
   z-index: 1;
-  position: absolute;
-  top:45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 #three:link {
