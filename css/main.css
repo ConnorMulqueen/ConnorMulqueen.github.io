@@ -16,10 +16,6 @@ body, html {
   overflow: hidden;
 }
 
-body {
-  position: relative;
-}
-
 canvas {
   display: block;
 }
@@ -31,7 +27,7 @@ button {
   font-size: 18px;
   padding: 8px 20px 8px 20px;
   text-align: center;
-  border: #dddddd 2px solid;
+  border: #dddddd 4px solid;
   width: 180px;
   text-align: center;
   cursor: pointer;
@@ -46,15 +42,20 @@ button {
 button:hover {
   background-color: #dddddd;
   color: #111111;
-  box-shadow: inset 90px 0 0 0 #e0e0e0;
+  box-shadow: inset 100px 0 0 0 #e0e0e0;
 }
 
 a {
   text-decoration: none;
 }
 
-#text {
+#HeaderText {
   z-index: 1;
+  position: absolute;
+  top:45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #three:link {
