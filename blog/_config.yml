@@ -1,0 +1,22 @@
+title:             Connor's Blog
+email:             cjmulque@buffalo.edu
+description:       A guy who like 'Halo' enough to become a Software Engineer
+author:            Connor Mulqueen
+baseurl:           "/blog"
+url:               "http://www.connormulqueen.tech"
+
+# Social Profiles
+twitter_username:
+github_username:   Connormulqueen
+facebook_username:
+linkedin_username: Connormulqueen
+medium_username: ConnorMulqueen
+email_address: cjmulque@buffalo.edu
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
