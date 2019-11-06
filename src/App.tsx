@@ -3,14 +3,12 @@ import './App.css';
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFileAlt, faSuitcase, faEnvelope, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faFileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faStrava, faGithub, faMediumM } from '@fortawesome/free-brands-svg-icons';
 import Tooltip from '@material-ui/core/Tooltip';
-
 
 import Home from './Home';
 import Projects from './Projects';

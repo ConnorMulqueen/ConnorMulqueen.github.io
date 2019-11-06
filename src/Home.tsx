@@ -2,13 +2,11 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 
 import Typography from '@material-ui/core/Typography';
-import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-
+import Lottie from 'react-lottie';
+import animationData from './Assets/Lottie/downwardArrow.json';
 
 const useStyles = makeStyles({
     backgroundDiv: {
@@ -33,6 +31,16 @@ const useStyles = makeStyles({
     }
   });
 
+const LottieOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: require('./Assets/Lottie/downwardArrow.json'),
+        rendererSettings: {
+          preserveAspectRatio: 'xMidYMid slice'
+        },
+        paddingTop: 600
+};
+
 const Home: React.FC = () => {
     const classes = useStyles();
 
@@ -48,10 +56,16 @@ const Home: React.FC = () => {
                 <Typography variant="h4">
                     Software Engineer
                 </Typography>
-
+            
+                <Lottie options={LottieOptions}
+                    height={50}
+                    width={50}
+                    />     
                 <br />
-                <FontAwesomeIcon icon={faArrowDown} className={classes.bottomArrow} size='2x'/>
-            </Container>
+                <br />
+                <br />
+                <br />       
+         </Container>
 
         </div>
     )
