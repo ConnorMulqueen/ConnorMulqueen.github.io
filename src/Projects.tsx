@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
 
                 <List component="nav" aria-label="main mailbox folders">
 
-                    <Link href="https://github.com/ConnorMulqueen/Mechanical-Squirrel" target="_blank">
+                    <Link href="/Mechanical-Squirrel" target="_blank">
 
                         <ListItem button>
                             <ListItemAvatar>

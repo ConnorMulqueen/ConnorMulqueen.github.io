@@ -26,8 +26,8 @@ const useStyles = makeStyles({
         height: 200
     },
     bottomArrow: {
-        position: 'relative', //Here is the trick
-        bottom: 0, //Here is the trick
+        position: 'relative',
+        bottom: 0
     }
   });
 
@@ -60,11 +60,7 @@ const Home: React.FC = () => {
                 <Lottie options={LottieOptions}
                     height={50}
                     width={50}
-                    />     
-                <br />
-                <br />
-                <br />
-                <br />       
+                    />    
          </Container>
 
         </div>
