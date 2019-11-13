@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
                             <ListItemAvatar>
                             <Avatar alt="Mechanical Squirrel" src={require('./Assets/Images/mechanical_squirrel.jpg')} className={classes.smallAvatar}/>
                             </ListItemAvatar>
-                            <ListItemText primary="Mechanical Squirrel | Javascript, Node, Python, AWS EC2" secondary='A Discord bot for World of Warcraft: Classic memes (15k+ Users | 500+ Discord Servers)' />
+                            <ListItemText primary="Mechanical Squirrel | Javascript, Node, Python, AWS EC2" secondary='A Discord bot for World of Warcraft: Classic memes (55k+ Users | 500+ Discord Servers)' />
                         </ListItem>
                     </Link>
                     <Link href="https://github.com/ConnorMulqueen/Shroomscape" target="_blank">
