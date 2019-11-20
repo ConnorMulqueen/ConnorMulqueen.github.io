@@ -48,7 +48,7 @@ const Home: React.FC = () => {
         <div className={classes.backgroundDiv}>
             <Container>
                 <Grid container justify = "center">
-                    <Avatar alt="profile_pic" src={require('./Assets/Images/me2.jpg')} className={classes.bigAvatar} />
+                    <Avatar alt="profile_pic" src={require('./Assets/Images/profile_pic.jpg')} className={classes.bigAvatar} />
                 </Grid>
                 <Typography variant="h1">
                     Connor Mulqueen
