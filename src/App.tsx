@@ -6,8 +6,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faStrava, faGithub, faMediumM } from '@fortawesome/free-brands-svg-icons';
+import { faFileAlt, faEnvelope, faBook } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faStrava, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Tooltip from '@material-ui/core/Tooltip';
 
 import Home from './Home';
@@ -22,7 +22,7 @@ const App: React.FC = () => {
             <Tooltip title="Resume"><Button color="inherit"><FontAwesomeIcon icon={faFileAlt}  size='lg'/></Button></Tooltip>
             <Tooltip title="Contact Connor.Mulqueen@gmail.com"><Button color="inherit" href="mailto:connor.mulqueen@gmail.com"><FontAwesomeIcon icon={faEnvelope} size='lg'/></Button></Tooltip>
             <Tooltip title="GitHub"><Button color="inherit" href="https://github.com/ConnorMulqueen/" target="_blank"><FontAwesomeIcon icon={faGithub} size='lg'/></Button></Tooltip>
-            <Tooltip title="Blog"><Button color="inherit" href="https://medium.com/@connormulqueen" target="_blank"><FontAwesomeIcon icon={faMediumM} size='lg'/></Button></Tooltip>
+            <Tooltip title="Blog"><Button color="inherit" href="/blog" target="_blank"><FontAwesomeIcon icon={faBook} size='lg'/></Button></Tooltip>
             {/* <Tooltip title="Personal Projects"><Button color="inherit"><FontAwesomeIcon icon={faSuitcase} size='lg'/></Button></Tooltip> */}
             <Tooltip title="LinkedIn"><Button color="inherit" href="https://www.linkedin.com/in/connormulqueen/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size='lg'/></Button></Tooltip>
             <Tooltip title="Strava"><Button color="inherit" href="https://www.strava.com/athletes/connormulqueen" target="_blank"><FontAwesomeIcon icon={faStrava} size='lg'/></Button></Tooltip>
