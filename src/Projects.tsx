@@ -36,35 +36,46 @@ const Projects: React.FC = () => {
 
                 <List component="nav" aria-label="main mailbox folders">
 
+
+                    <Link href="https://github.com/ConnorMulqueen/spot" target="_blank">
+                        <ListItem button>
+                            <ListItemAvatar>
+                            <Avatar src={require('./Assets/Images/place.png')} className={classes.smallAvatar}/>
+                            </ListItemAvatar>
+                            <ListItemText primary="Spot | JavaScript, Firebase " secondary='A serverless /r/place clone using firebase' />
+                        </ListItem>
+                    </Link>
+
                     <Link href="/Mechanical-Squirrel" target="_blank">
-
                         <ListItem button>
                             <ListItemAvatar>
-                            <Avatar alt="Mechanical Squirrel" src={require('./Assets/Images/mechanical_squirrel.jpg')} className={classes.smallAvatar}/>
+                            <Avatar src={require('./Assets/Images/mechanical_squirrel.jpg')} className={classes.smallAvatar}/>
                             </ListItemAvatar>
-                            <ListItemText primary="Mechanical Squirrel | Javascript, Node, Python, AWS EC2" secondary='A Discord bot for World of Warcraft: Classic memes (55k+ Users | 500+ Discord Servers)' />
+                            <ListItemText primary="Mechanical Squirrel | JavaScript, Node, Python, AWS EC2" secondary='A Discord bot for World of Warcraft: Classic memes (55k+ Users | 500+ Discord Servers)' />
                         </ListItem>
                     </Link>
+
                     <Link href="https://github.com/ConnorMulqueen/Shroomscape" target="_blank">
-
                         <ListItem button>
                             <ListItemAvatar>
-                            <Avatar alt="Shroomscape" src={require('./Assets/Images/shroomscape.png')} className={classes.smallAvatar} />
+                            <Avatar src={require('./Assets/Images/shroomscape.png')} className={classes.smallAvatar} />
                             </ListItemAvatar>
-                            <ListItemText primary="Shroomscape | Javascript, Node, AWS Lambda" secondary='A voice based adventure game Amazon Alexa Skill' />
+                            <ListItemText primary="Shroomscape | JavaScript, Node, AWS Lambda" secondary='A voice based adventure game Amazon Alexa Skill' />
                         </ListItem>
                     </Link>
+
                     <Link href="https://github.com/ConnorMulqueen/VanillaWoWBot" target="_blank">
                         <ListItem button>
                             <ListItemAvatar>
-                            <Avatar alt="Shroomscape" src={require('./Assets/Images/fireballer.png')} className={classes.smallAvatar} />
+                            <Avatar src={require('./Assets/Images/fireballer.png')} className={classes.smallAvatar} />
                             </ListItemAvatar>
                             <ListItemText primary="Fireballer | AutoHotkey" secondary='A mage leveling bot for World of Warcraft: Classic private servers' />
                         </ListItem>
                     </Link>
+
                     <ListItem button>
                         <ListItemAvatar>
-                        <Avatar alt="Shroomscape" src={require('./Assets/Images/fishingbot.jpg')} className={classes.smallAvatar} />
+                        <Avatar src={require('./Assets/Images/fishingbot.jpg')} className={classes.smallAvatar} />
                         </ListItemAvatar>
                         <ListItemText primary="Bait | Python" secondary='A fishing bot for World of Warcraft: Classic private servers' />
                     </ListItem>

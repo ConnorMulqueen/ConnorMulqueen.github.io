@@ -6,7 +6,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
 import Lottie from 'react-lottie';
-import animationData from './Assets/Lottie/downwardArrow.json';
 
 const useStyles = makeStyles({
     backgroundDiv: {
@@ -33,7 +32,7 @@ const useStyles = makeStyles({
 
 const LottieOptions = {
         loop: true,
-        autoplay: true, 
+        autoplay: true,
         animationData: require('./Assets/Lottie/downwardArrow.json'),
         rendererSettings: {
           preserveAspectRatio: 'xMidYMid slice'
@@ -56,11 +55,11 @@ const Home: React.FC = () => {
                 <Typography variant="h4">
                     Software Engineer
                 </Typography>
-            
+
                 <Lottie options={LottieOptions}
                     height={50}
                     width={50}
-                    />    
+                    />
          </Container>
 
         </div>
