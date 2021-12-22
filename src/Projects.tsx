@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
         <div className={classes.backgroundDiv}>
             <Container>
                 <Typography variant='h3'>
-                    Projects
+                    Personal Projects
                 </Typography>
                 <br />
                 {/* <Tooltip title="Help out with my AWS bill :)">
