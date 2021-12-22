@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
                         </ListItem>
                     </Link>
 
-                    <Link href="/Mechanical-Squirrel" target="_blank">
+                    <Link href="https://github.com/ConnorMulqueen/Mechanical-Squirrel" target="_blank">
                         <ListItem button>
                             <ListItemAvatar>
                             <Avatar src={require('./Assets/Images/mechanical_squirrel.jpg')} className={classes.smallAvatar}/>
